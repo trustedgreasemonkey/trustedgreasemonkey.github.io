@@ -1,0 +1,138 @@
+body {
+	padding-top: 50px;
+}
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+.navbar-inverse {
+    background-color: #747578;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus {
+	background-image: none;
+	background-color: #0B5B96;
+}
+.navbar-inverse .navbar-nav>a:hover {
+	color: #16B2FF;
+}
+.opaque-bg {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	background-image: url('./assets/greasemonkey.png');
+	background-repeat: no-repeat;
+	background-size: 1200px;
+	background-position: 180%;
+	opacity: 0.15;
+}
+.jumbotron {
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 8.5rem 0;
+	position: relative;
+	background: -moz-linear-gradient(left,  rgba(2,190,235,1) 0%, rgba(22,210,255,0.54) 91%, rgba(22,210,255,0.5) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(2,190,235,1)), color-stop(91%,rgba(22,210,255,0.54)), color-stop(100%,rgba(22,210,255,0.5)));
+	background: -webkit-linear-gradient(left,  rgba(2,190,235,1) 0%,rgba(22,210,255,0.54) 91%,rgba(22,210,255,0.5) 100%);
+	background: -o-linear-gradient(left,  rgba(2,190,235,1) 0%,rgba(22,210,255,0.54) 91%,rgba(22,210,255,0.5) 100%);
+	background: -ms-linear-gradient(left,  rgba(2,190,235,1) 0%,rgba(22,210,255,0.54) 91%,rgba(22,210,255,0.5) 100%);
+	background: linear-gradient(to right,  rgba(2,190,235,1) 0%,rgba(22,210,255,0.54) 91%,rgba(22,210,255,0.5) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02beeb', endColorstr='#8016d2ff',GradientType=1 );
+}
+.jumbotron .btn {
+	padding: 14px 24px;
+	font-size: 21px;
+}
+.jumbotron h1 {
+	margin-top: 2.5rem;
+	font-family: 'nexa_rust_slabblack_shadow_01';
+	font-size: 4.25rem;
+	color: #0B5B96;
+}
+.img-responsive {
+	margin: 0 auto;
+}
+.lead {
+	color: #0B5B96;
+}
+.explanation {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.second-page,
+.third-page {
+	padding: 8.5rem 0;
+}
+.container {
+	position: relative;
+}
+.exchange-bg {
+	position: absolute;
+    font-size: 30rem;
+    opacity: 0.15;
+    top: -64px;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: -1;
+}
+.container h2 {
+	margin: 4rem 0;
+}
+.explanation p {
+	font-size: 150%;
+}
+.third-page {
+	background-color: #16B2FF;
+	height: 640px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+.phone {
+    width: 503px;
+    height: 1023px;
+    background-image: url('./assets/iphone.png');
+    background-position: 50% 50%;
+    position: absolute;
+    top: -207px;
+    right: 118px;
+    transform: rotate(20deg);
+}
+.phone-screen {
+    position: relative;
+    width: 97%;
+    top: 17.7%;
+    left: 1.5%;
+}
+.app-button {
+	display: block;
+	margin-bottom: 1rem;
+	cursor: pointer;
+	margin-left: 3rem;
+}
+footer {
+	padding: 3.5rem 0;
+	text-align: center;
+	background-color: #747578;
+	color: white;
+	z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+	/* Remove the bottom border on the jumbotron for visual effect */
+	.jumbotron {
+		border-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	/* Remove the bottom border on the jumbotron for visual effect */
+	.jumbotron {
+		border-bottom: 0;
+	}
+}
